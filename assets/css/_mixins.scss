@@ -1,0 +1,54 @@
+            @mixin mix-in-container($height, $width) {
+                height: $height;
+                width: $width;
+                display: flex;
+                align-items: top;
+                justify-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                background-image: url("../images/hiab1.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            /*media sm*/
+            
+            h3 {
+                color: #ff4800;
+            }
+            
+            #examples-container {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                color: red;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+                section {
+                    display: flex;
+                }
+                .container-sm {
+                    @include mix-in-container(200px,
+                    200px,
+                    );
+                    background-image: url("../images/payloader-animado.gif");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                /*media md*/
+                .container-md {
+                    @include mix-in-container(200px,
+                    200px);
+                    background-image: url("../images/kenworth1.jpg");
+                }
+                /*media lg*/
+                .container-lg {
+                    @include mix-in-container(200px,
+                    200px);
+                    background-image: url("../images/Excavadora-Moviendose-56807.gif");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }

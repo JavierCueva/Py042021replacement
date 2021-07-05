@@ -1,0 +1,501 @@
+/*media sm*/
+h3 {
+  color: #ff4800;
+}
+
+#examples-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  /*media md*/
+  /*media lg*/
+}
+#examples-container section {
+  display: flex;
+}
+#examples-container .container-sm {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: top;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-image: url("../images/hiab1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/payloader-animado.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#examples-container .container-md {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: top;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-image: url("../images/hiab1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/kenworth1.jpg");
+}
+#examples-container .container-lg {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: top;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-image: url("../images/hiab1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Excavadora-Moviendose-56807.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact-us {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#home {
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+  font-size: 17px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+#our-company-nav {
+  width: fit-content;
+  font-size: 17px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  justify-content: center;
+  background-color: green;
+}
+
+.about-us {
+  width: fit-content;
+  font-size: 17px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: hotpink;
+}
+
+.contact-us {
+  width: fit-content;
+  font-size: 17px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background-color: hotpink;
+}
+
+#cover-title {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+}
+
+nav {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  background-color: #5e5e4e;
+}
+nav b {
+  color: white;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #4d4f53;
+  text-align: center;
+  background-image: url("../images/engranes-bg.jpg");
+}
+
+#our-company {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  align-items: center;
+  justify-items: center;
+  font-size: 20px;
+}
+#our-company b {
+  font-size: 20px;
+  text-align: justify;
+  align-items: center;
+}
+#our-company .card-our-company {
+  justify-content: center;
+}
+#our-company .card-our-company .card-image {
+  border-radius: 20px;
+}
+#our-company .card-our-company .text-in-card {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+#new-items h2 {
+  color: red;
+}
+#new-items .card-container {
+  display: grid;
+  margin: 15px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto auto;
+  justify-content: space-around;
+  gap: 10px;
+}
+#new-items .card-container .card-image {
+  border: solid 1px gray;
+  border-radius: 10px;
+  width: 220px;
+  height: 200px;
+}
+#new-items .card-container .text-in-card {
+  color: darkblue;
+  font-size: 18px;
+}
+
+#used-items #used-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#used-items #used-title h2 {
+  font-size: 20px;
+  color: red;
+}
+#used-items .card-container {
+  display: grid;
+  margin: 15px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto auto;
+  justify-content: space-around;
+  gap: 10px;
+}
+#used-items .card-container .card-image {
+  border: solid 1px gray;
+  border-radius: 10px;
+  width: 220px;
+  height: 200px;
+}
+#used-items .card-container .text-in-card {
+  color: darkblue;
+  font-size: 18px;
+}
+
+#nav-footer {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #5e5e4e;
+  display: flex;
+  justify-content: space-evenly;
+}
+#nav-footer #purchase-support {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+#nav-footer #service-support {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+@media screen and (min-width: 360px) and (max-width: 499px) {
+  nav {
+    width: 100%;
+    background-color: green;
+    font-size: 12px;
+  }
+  nav .navbar {
+    display: none;
+  }
+
+  #cover-title {
+    color: black;
+    font-size: 25px;
+  }
+
+  #our-company {
+    margin: 0;
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+  #our-company b {
+    color: darkblue;
+  }
+  #our-company .card-our-company .text-in-card {
+    color: #800006;
+  }
+
+  #new-items h2 {
+    color: black;
+  }
+  #new-items .card-container {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #new-items .card-container .border-card .text-in-card {
+    color: seagreen;
+  }
+
+  #used-items {
+    display: grid;
+    justify-content: center;
+  }
+  #used-items #used-title h2 {
+    color: black;
+  }
+  #used-items .card-container {
+    width: 375px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    margin-bottom: 10px;
+  }
+  #used-items .card-container .border-card {
+    width: 186px;
+  }
+  #used-items .card-container b {
+    color: darkblue;
+    font-size: 14px;
+  }
+  #used-items .card-container .card-text {
+    background-color: #5e5e4e;
+  }
+
+  #mix-in-container {
+    width: 100%;
+    gap: 10px;
+  }
+  #mix-in-container h3 {
+    color: black;
+  }
+  #mix-in-container #examples-container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: justify;
+    justify-items: center;
+  }
+  #mix-in-container #examples-container .container-md {
+    justify-items: center;
+  }
+
+  #nav-footer {
+    background-color: sandybrown;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  nav {
+    width: 100%;
+    background-color: orange;
+    font-size: 12px;
+  }
+  nav .navbar {
+    display: none;
+  }
+
+  #cover-title {
+    color: black;
+    font-size: 25px;
+  }
+
+  #our-company {
+    margin: 0;
+    grid-template-columns: auto auto;
+    justify-items: center;
+  }
+  #our-company b {
+    color: darkblue;
+  }
+  #our-company .card-our-company .text-in-card {
+    color: #800006;
+  }
+
+  #new-items h2 {
+    color: black;
+  }
+  #new-items .card-container {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #new-items .card-container .border-card .text-in-card {
+    color: seagreen;
+  }
+
+  #used-items {
+    display: grid;
+    justify-content: center;
+  }
+  #used-items #used-title h2 {
+    color: black;
+  }
+  #used-items .card-container {
+    width: 375px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    margin-bottom: 10px;
+  }
+  #used-items .card-container .border-card {
+    width: 186px;
+  }
+  #used-items .card-container b {
+    color: darkblue;
+    font-size: 14px;
+  }
+  #used-items .card-container .card-text {
+    background-color: #5e5e4e;
+  }
+
+  #mix-in-container {
+    width: 100%;
+    gap: 10px;
+  }
+  #mix-in-container h3 {
+    color: black;
+  }
+  #mix-in-container #examples-container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: justify;
+    justify-items: center;
+  }
+  #mix-in-container #examples-container .container-md {
+    justify-items: center;
+  }
+
+  #nav-footer {
+    background-color: sandybrown;
+  }
+}
+@media screen and (min-width: 1700px) {
+  nav {
+    background-color: skyblue;
+    font-size: 25px;
+  }
+
+  #cover-title {
+    color: black;
+    font-size: 25px;
+  }
+
+  #used-title {
+    color: red;
+  }
+
+  #portada-home {
+    font-size: 14px;
+    color: honeydew;
+  }
+
+  #used-images {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #our-company {
+    font-size: 15px;
+    text-align: justify;
+    justify-content: flex-end;
+    font-size: 18px;
+  }
+}
+/* ----------------*/
+/*@media screen and (min-width:360px) {
+nav {
+margin: 0;
+width: $nav-width;
+height: auto;
+background-color: $bgc-nav500px;
+font-size: 10px;
+}
+#cover-title {
+color: black;
+font-size: 25px;
+}
+#used-title {
+color: $color-text-title;
+}
+#portada-home {
+font-size: 14px;
+color: honeydew;
+}
+#used-images {
+display: grid;
+grid-template-rows: auto auto auto;
+}
+#our-company {
+margin: 0;
+display: grid;
+grid-template-columns: 35% 5% 30%;
+font-size: 20px;
+text-align: justify;
+b {
+    color: $cards-text-color;
+}
+}
+#card-container {
+display: grid;
+grid-template-columns: 40% 40%;
+grid-template-rows: auto auto;
+align-items: flex-start;
+b {
+    color: $cards-text-color;
+    font-size: 14px;
+}
+.card-text {
+    background-color: $bgc-nav;
+}
+}
+}*/
+
+/*# sourceMappingURL=main.css.map */

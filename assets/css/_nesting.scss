@@ -1,0 +1,435 @@
+        #contact-us {
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        #home {
+            display: flex;
+            justify-content: flex-start;
+            width: fit-content;
+            font-size: 17px;
+            color: $primary-color-text;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        #our-company-nav {
+            width: fit-content;
+            font-size: 17px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            justify-content: center;
+            background-color: green;
+        }
+        
+        .about-us {
+            width: fit-content;
+            font-size: 17px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            background-color: hotpink;
+        }
+        
+        .contact-us {
+            width: fit-content;
+            font-size: 17px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            background-color: hotpink;
+        }
+        
+        #cover-title {
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: $color-text-title;
+        }
+        
+        nav {
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            width: $nav-width;
+            height: $nav-heigth;
+            flex-direction: row;
+            background-color: $bgc-nav;
+            b {
+                color: $primary-color-text;
+            }
+        }
+        
+        body {
+            margin: 0;
+            width: 100%;
+            background-color: rgb(77, 79, 83);
+            text-align: center;
+            background-image: url("../images/engranes-bg.jpg");
+        }
+        
+        #our-company {
+            margin: 1em;
+            display: grid;
+            grid-template-columns: 45% 10% 45%;
+            align-items: center;
+            justify-items: center;
+            font-size: 20px;
+            b {
+                font-size: 20px;
+                text-align: justify;
+                align-items: center;
+            }
+            .card-our-company {
+                justify-content: center;
+                .card-image {
+                    border-radius: 20px;
+                }
+                .text-in-card {
+                    width: 100%;
+                    display: flex;
+                    text-align: center;
+                    color: blueviolet;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+        #new-items {
+            h2 {
+                color: $text-color-title;
+            }
+            .card-container {
+                display: grid;
+                margin: 15px;
+                grid-template-columns: 30% 30% 30%;
+                grid-template-rows: auto auto;
+                justify-content: space-around;
+                gap: 10px;
+                .card-image {
+                    border: solid 1px gray;
+                    border-radius: 10px;
+                    width: 220px;
+                    height: 200px;
+                }
+                .text-in-card {
+                    color: $cards-text-color;
+                    font-size: 18px;
+                }
+            }
+        }
+        
+        #used-items {
+            #used-title {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                h2 {
+                    font-size: 20px;
+                    color: red;
+                }
+            }
+            .card-container {
+                display: grid;
+                margin: 15px;
+                grid-template-columns: 30% 30% 30%;
+                grid-template-rows: auto auto;
+                justify-content: space-around;
+                gap: 10px;
+                .card-image {
+                    border: solid 1px gray;
+                    border-radius: 10px;
+                    width: 220px;
+                    height: 200px;
+                }
+                .text-in-card {
+                    color: $cards-text-color;
+                    font-size: 18px;
+                }
+            }
+        }
+        
+        #nav-footer {
+            margin-top: 20px;
+            width: 100%;
+            background-color: $bgc-nav;
+            display: flex;
+            justify-content: space-evenly;
+            #purchase-support {
+                text-decoration: none;
+                color: blanchedalmond;
+            }
+            #service-support {
+                text-decoration: none;
+                color: blanchedalmond;
+            }
+        }
+        
+        @media screen and (min-width: 360px) and (max-width: 499px) {
+            nav {
+                width: 100%;
+                background-color: $bgc-nav300px;
+                font-size: 12px;
+                .navbar {
+                    display: none;
+                }
+            }
+            #cover-title {
+                color: black;
+                font-size: 25px;
+            }
+            #our-company {
+                margin: 0;
+                grid-template-columns: auto auto;
+                justify-items: center;
+                b {
+                    color: $cards-text-color;
+                }
+                .card-our-company {
+                    .text-in-card {
+                        color: $cards-text-color-resp;
+                    }
+                }
+            }
+            #new-items {
+                h2 {
+                    color: black;
+                }
+                .card-container {
+                    grid-template-columns: 100%;
+                    grid-template-rows: auto auto auto auto auto auto;
+                    justify-content: center;
+                    align-items: center;
+                    .border-card {
+                        .text-in-card {
+                            color: seagreen;
+                        }
+                    }
+                }
+            }
+            #used-items {
+                display: grid;
+                justify-content: center;
+                #used-title {
+                    h2 {
+                        color: black;
+                    }
+                }
+                .card-container {
+                    width: 375px;
+                    margin: 0;
+                    display: grid;
+                    grid-template-columns: 50%;
+                    grid-template-rows: auto auto auto;
+                    gap: 1rem;
+                    margin-bottom: 10px;
+                    .border-card {
+                        width: 186px;
+                    }
+                    b {
+                        color: $cards-text-color;
+                        font-size: 14px;
+                    }
+                    .card-text {
+                        background-color: $bgc-nav;
+                    }
+                }
+            }
+            #mix-in-container {
+                width: 100%;
+                gap: 10px;
+                h3 {
+                    color: black;
+                }
+                #examples-container {
+                    margin: 0;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: auto auto;
+                    justify-content: center;
+                    text-align: justify;
+                    justify-items: center;
+                    .container-md {
+                        justify-items: center;
+                    }
+                }
+            }
+            #nav-footer {
+                background-color: sandybrown;
+            }
+        }
+        
+        @media screen and (min-width: 500px) and (max-width:850px) {
+            nav {
+                width: 100%;
+                background-color: $bgc-nav500px;
+                font-size: 12px;
+                .navbar {
+                    display: none;
+                }
+            }
+            #cover-title {
+                color: black;
+                font-size: 25px;
+            }
+            #our-company {
+                margin: 0;
+                grid-template-columns: auto auto;
+                justify-items: center;
+                b {
+                    color: $cards-text-color;
+                }
+                .card-our-company {
+                    .text-in-card {
+                        color: $cards-text-color-resp;
+                    }
+                }
+            }
+            #new-items {
+                h2 {
+                    color: black;
+                }
+                .card-container {
+                    grid-template-columns: 100%;
+                    grid-template-rows: auto auto auto auto auto auto;
+                    justify-content: center;
+                    align-items: center;
+                    .border-card {
+                        .text-in-card {
+                            color: seagreen;
+                        }
+                    }
+                }
+            }
+            #used-items {
+                display: grid;
+                justify-content: center;
+                #used-title {
+                    h2 {
+                        color: black;
+                    }
+                }
+                .card-container {
+                    width: 375px;
+                    margin: 0;
+                    display: grid;
+                    grid-template-columns: 50%;
+                    grid-template-rows: auto auto auto;
+                    gap: 1rem;
+                    margin-bottom: 10px;
+                    .border-card {
+                        width: 186px;
+                    }
+                    b {
+                        color: $cards-text-color;
+                        font-size: 14px;
+                    }
+                    .card-text {
+                        background-color: $bgc-nav;
+                    }
+                }
+            }
+            #mix-in-container {
+                width: 100%;
+                gap: 10px;
+                h3 {
+                    color: black;
+                }
+                #examples-container {
+                    margin: 0;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: auto auto;
+                    justify-content: center;
+                    text-align: justify;
+                    justify-items: center;
+                    .container-md {
+                        justify-items: center;
+                    }
+                }
+            }
+            #nav-footer {
+                background-color: sandybrown;
+            }
+        }
+        
+        @media screen and (min-width:1700px) {
+            nav {
+                background-color: skyblue;
+                font-size: 25px;
+            }
+            #cover-title {
+                color: black;
+                font-size: 25px;
+            }
+            #used-title {
+                color: red;
+            }
+            #portada-home {
+                font-size: 14px;
+                color: honeydew;
+            }
+            #used-images {
+                display: flex;
+                justify-content: space-around;
+            }
+            #our-company {
+                font-size: 15px;
+                text-align: justify;
+                justify-content: flex-end;
+                font-size: 18px;
+            }
+        }
+        /* ----------------*/
+        /*@media screen and (min-width:360px) {
+nav {
+margin: 0;
+width: $nav-width;
+height: auto;
+background-color: $bgc-nav500px;
+font-size: 10px;
+}
+#cover-title {
+color: black;
+font-size: 25px;
+}
+#used-title {
+color: $color-text-title;
+}
+#portada-home {
+font-size: 14px;
+color: honeydew;
+}
+#used-images {
+display: grid;
+grid-template-rows: auto auto auto;
+}
+#our-company {
+margin: 0;
+display: grid;
+grid-template-columns: 35% 5% 30%;
+font-size: 20px;
+text-align: justify;
+b {
+    color: $cards-text-color;
+}
+}
+#card-container {
+display: grid;
+grid-template-columns: 40% 40%;
+grid-template-rows: auto auto;
+align-items: flex-start;
+b {
+    color: $cards-text-color;
+    font-size: 14px;
+}
+.card-text {
+    background-color: $bgc-nav;
+}
+}
+}*/
