@@ -78,11 +78,17 @@ h3 {
   display: flex;
   justify-content: flex-start;
   width: fit-content;
-  font-size: 17px;
-  color: white;
+  /*font-size: 17px;
+  color: $primary-color-text;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  text-align: center;
+  text-align: center;*/
+  width: fit-content;
+  font-size: 17px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  justify-content: center;
 }
 
 #our-company-nav {
@@ -92,7 +98,6 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   justify-content: center;
-  background-color: green;
 }
 
 .about-us {
@@ -101,7 +106,6 @@ h3 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  background-color: hotpink;
 }
 
 .contact-us {
@@ -110,7 +114,6 @@ h3 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  background-color: hotpink;
 }
 
 #cover-title {
@@ -160,6 +163,7 @@ body {
 }
 #our-company .card-our-company .card-image {
   border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
 }
 #our-company .card-our-company .text-in-card {
   width: 100%;
@@ -185,6 +189,7 @@ body {
   border-radius: 10px;
   width: 220px;
   height: 200px;
+  box-shadow: 2px 2px 2px gray;
 }
 #new-items .card-container .text-in-card {
   color: darkblue;
@@ -213,6 +218,7 @@ body {
   border-radius: 10px;
   width: 220px;
   height: 200px;
+  box-shadow: 2px 2px 2px gray;
 }
 #used-items .card-container .text-in-card {
   color: darkblue;

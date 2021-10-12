@@ -9,11 +9,18 @@
             display: flex;
             justify-content: flex-start;
             width: fit-content;
-            font-size: 17px;
+            /*font-size: 17px;
             color: $primary-color-text;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
-            text-align: center;
+            text-align: center;*/
+            width: fit-content;
+            font-size: 17px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            justify-content: center;
+            //background-color: rgb(179, 179, 204);
         }
         
         #our-company-nav {
@@ -23,7 +30,7 @@
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
             justify-content: center;
-            background-color: green;
+            //background-color: rgb(179, 179, 204);
         }
         
         .about-us {
@@ -32,7 +39,7 @@
             color: black;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
-            background-color: hotpink;
+            //background-color: rgb(179, 179, 204);
         }
         
         .contact-us {
@@ -41,7 +48,7 @@
             color: black;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
-            background-color: hotpink;
+            //background-color: rgb(179, 179, 204);
         }
         
         #cover-title {
@@ -89,6 +96,7 @@
                 justify-content: center;
                 .card-image {
                     border-radius: 20px;
+                    box-shadow: 2px 2px 2px gray;
                 }
                 .text-in-card {
                     width: 100%;
@@ -116,6 +124,7 @@
                     border-radius: 10px;
                     width: 220px;
                     height: 200px;
+                    box-shadow: 2px 2px 2px gray;
                 }
                 .text-in-card {
                     color: $cards-text-color;
@@ -146,6 +155,7 @@
                     border-radius: 10px;
                     width: 220px;
                     height: 200px;
+                    box-shadow: 2px 2px 2px gray;
                 }
                 .text-in-card {
                     color: $cards-text-color;
